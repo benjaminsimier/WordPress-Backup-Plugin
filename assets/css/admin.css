@@ -1,0 +1,169 @@
+/**
+ * Admin styles
+ */
+ .backup-now-container {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccd0d4;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.backup-options {
+  margin: 15px 0;
+}
+
+.backup-options label {
+  margin-right: 20px;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  margin: 15px 0;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #0073aa;
+  transition: width 0.3s ease;
+}
+
+#backup-status {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#log-viewer {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+#log-content {
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #eee;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+.nav-tab-wrapper {
+  margin-bottom: 20px;
+}
+
+.tab-content {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccd0d4;
+  border-top: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+/* OAuth token styles */
+.oauth-playground-instructions {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.oauth-playground-instructions ol {
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+.oauth-playground-instructions li {
+  margin-bottom: 8px;
+}
+
+.token-fields {
+  display: grid;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.token-field {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.token-field input {
+  margin-top: 5px;
+}
+
+.token-status {
+  margin-top: 15px;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#disconnect-google {
+  margin-left: auto;
+}
+
+.folder-selection {
+  margin-top: 15px;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.current-folder {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #f8f8f8;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+
+.folder-actions {
+  display: grid;
+  gap: 15px;
+}
+
+.select-folder,
+.create-folder {
+  display: grid;
+  gap: 10px;
+}
+
+.create-folder {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+#folder-selection-status {
+  margin-top: 15px;
+}
+
+#folder-selection-status .notice {
+  margin: 5px 0;
+  padding: 8px 12px;
+}
+
+#new-folder-name {
+  min-width: 250px;
+}
+
+#folder-selection-status {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
